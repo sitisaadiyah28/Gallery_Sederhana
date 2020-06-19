@@ -12,24 +12,24 @@ class GaleryPage extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Colors.red[900],
         centerTitle: true,
-        title: Text('Padang Foods', style: TextStyle(fontSize: 24.0),),
+        title: Text('Padang Foods', style: TextStyle(fontSize: 24.0,fontFamily: "Pacifico" ),),
       ),
       body: GridView.count(
-        crossAxisCount: 2,
+        crossAxisCount: 3,
         children: <Widget>[
           Padding(
-            padding: const EdgeInsets.only(left: 10.0, right: 5, top: 10.0),
+            padding: const EdgeInsets.only(top: 10.0),
             child: Container(
               height: MediaQuery.of(context).size.height/2,
               width: MediaQuery.of(context).size.width/2,
               child: Image(
-                image: AssetImage("images/palaibada.jpg"),
+                image: AssetImage("images/sate.jpg"),
                 fit: BoxFit.fill,
               ),
             ),
           ),
           Padding(
-            padding: const EdgeInsets.only(left: 10.0, right: 5, top: 10.0),
+            padding: const EdgeInsets.only(left: 2.0,  top: 10.0),
             child: Container(
               height: MediaQuery.of(context).size.height/2,
               width: MediaQuery.of(context).size.width/2,
@@ -40,7 +40,7 @@ class GaleryPage extends StatelessWidget {
             ),
           ),
           Padding(
-            padding: const EdgeInsets.only(left: 10.0, right: 5, top: 10.0),
+            padding: const EdgeInsets.only(left: 2.0, top: 10.0),
             child: Container(
               height: MediaQuery.of(context).size.height/2,
               width: MediaQuery.of(context).size.width/2,
@@ -51,7 +51,7 @@ class GaleryPage extends StatelessWidget {
             ),
           ),
           Padding(
-            padding: const EdgeInsets.only(left: 10.0, right: 5, top: 10.0),
+            padding: const EdgeInsets.only( top: 2.0),
             child: Container(
               height: MediaQuery.of(context).size.height/2,
               width: MediaQuery.of(context).size.width/2,
@@ -62,7 +62,7 @@ class GaleryPage extends StatelessWidget {
             ),
           ),
           Padding(
-            padding: const EdgeInsets.only(left: 10.0, right: 5, top: 10.0),
+            padding: const EdgeInsets.only(left: 2.0, top: 2.0),
             child: Container(
               height: MediaQuery.of(context).size.height/2,
               width: MediaQuery.of(context).size.width/2,
@@ -73,7 +73,7 @@ class GaleryPage extends StatelessWidget {
             ),
           ),
           Padding(
-            padding: const EdgeInsets.only(left: 10.0, right: 5, top: 10.0),
+            padding: const EdgeInsets.only(left: 2.0, top: 2.0),
             child: Container(
               height: MediaQuery.of(context).size.height/2,
               width: MediaQuery.of(context).size.width/2,
@@ -84,7 +84,7 @@ class GaleryPage extends StatelessWidget {
             ),
           ),
           Padding(
-            padding: const EdgeInsets.only(left: 10.0, right: 5, top: 10.0),
+            padding: const EdgeInsets.only(top: 2.0),
             child: Container(
               height: MediaQuery.of(context).size.height/2,
               width: MediaQuery.of(context).size.width/2,
@@ -95,7 +95,7 @@ class GaleryPage extends StatelessWidget {
             ),
           ),
           Padding(
-            padding: const EdgeInsets.only(left: 10.0, right: 5, top: 10.0),
+            padding: const EdgeInsets.only(left: 2.0, top: 2.0),
             child: Container(
               height: MediaQuery.of(context).size.height/2,
               width: MediaQuery.of(context).size.width/2,
@@ -106,7 +106,7 @@ class GaleryPage extends StatelessWidget {
             ),
           ),
           Padding(
-            padding: const EdgeInsets.only(left: 10.0, right: 5, top: 10.0),
+            padding: const EdgeInsets.only(left: 2.0,  top: 2.0),
             child: Container(
               height: MediaQuery.of(context).size.height/2,
               width: MediaQuery.of(context).size.width/2,
@@ -117,12 +117,100 @@ class GaleryPage extends StatelessWidget {
             ),
           ),
           Padding(
-            padding: const EdgeInsets.only(left: 10.0, right: 5, top: 10.0),
+            padding: const EdgeInsets.only(  top: 2.0),
             child: Container(
               height: MediaQuery.of(context).size.height/2,
               width: MediaQuery.of(context).size.width/2,
               child: Image(
                 image: AssetImage("images/asampadeh.JPG"),
+                fit: BoxFit.fill,
+              ),
+            ),
+          ),
+          Padding(
+            padding: const EdgeInsets.only(left: 2.0, top: 2.0),
+            child: Container(
+              height: MediaQuery.of(context).size.height/2,
+              width: MediaQuery.of(context).size.width/2,
+              child: Image(
+                image: AssetImage("images/sambalado.jpg"),
+                fit: BoxFit.fill,
+              ),
+            ),
+          ),
+          Padding(
+            padding: const EdgeInsets.only(left: 2.0, top: 2.0),
+            child: Container(
+              height: MediaQuery.of(context).size.height/2,
+              width: MediaQuery.of(context).size.width/2,
+              child: Image(
+                image: AssetImage("images/lompongsagu.jpg"),
+                fit: BoxFit.fill,
+              ),
+            ),
+          ),
+          Padding(
+            padding: const EdgeInsets.only(top: 2.0),
+            child: Container(
+              height: MediaQuery.of(context).size.height/2,
+              width: MediaQuery.of(context).size.width/2,
+              child: Image(
+                image: AssetImage("images/bika.jpeg"),
+                fit: BoxFit.fill,
+              ),
+            ),
+          ),
+          Padding(
+            padding: const EdgeInsets.only(left: 2.0,  top: 2.0),
+            child: Container(
+              height: MediaQuery.of(context).size.height/2,
+              width: MediaQuery.of(context).size.width/2,
+              child: Image(
+                image: AssetImage("images/lamangtapai.jpg"),
+                fit: BoxFit.fill,
+              ),
+            ),
+          ),
+          Padding(
+            padding: const EdgeInsets.only(left: 2.0, top: 2.0),
+            child: Container(
+              height: MediaQuery.of(context).size.height/2,
+              width: MediaQuery.of(context).size.width/2,
+              child: Image(
+                image: AssetImage("images/godokbatinta.jpg"),
+                fit: BoxFit.fill,
+              ),
+            ),
+          ),
+          Padding(
+            padding: const EdgeInsets.only(top: 2.0),
+            child: Container(
+              height: MediaQuery.of(context).size.height/2,
+              width: MediaQuery.of(context).size.width/2,
+              child: Image(
+                image: AssetImage("images/pinyaram.jpg"),
+                fit: BoxFit.fill,
+              ),
+            ),
+          ),
+          Padding(
+            padding: const EdgeInsets.only(left: 2.0,  top: 2.0),
+            child: Container(
+              height: MediaQuery.of(context).size.height/2,
+              width: MediaQuery.of(context).size.width/2,
+              child: Image(
+                image: AssetImage("images/sarangbalam.jpg"),
+                fit: BoxFit.fill,
+              ),
+            ),
+          ),
+          Padding(
+            padding: const EdgeInsets.only(left: 2.0, top: 2.0),
+            child: Container(
+              height: MediaQuery.of(context).size.height/2,
+              width: MediaQuery.of(context).size.width/2,
+              child: Image(
+                image: AssetImage("images/palai.jpg"),
                 fit: BoxFit.fill,
               ),
             ),
